@@ -1,6 +1,8 @@
 # [broccoli](https://github.com/joliss/broccoli)-csso [![Build Status](https://travis-ci.org/sindresorhus/broccoli-csso.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-csso)
 
-> Minimize CSS using [CSSO](http://bem.info/tools/csso/description/)
+> Minify CSS using [CSSO](http://bem.info/tools/csso/description/)
+
+*Issues with the output should be reported on the CSSO [issue tracker](https://github.com/css/csso/issues).*
 
 
 ## Install
