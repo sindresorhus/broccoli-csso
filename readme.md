@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-csso [![Build Status](https://travis-ci.org/sindresorhus/broccoli-csso.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-csso)
+# [broccoli](https://github.com/joliss/broccoli)-csso [![Build Status](https://travis-ci.org/sindresorhus/broccoli-csso.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-csso)
 
 > Minify CSS using [CSSO](http://bem.info/tools/csso/description/)
 
@@ -7,8 +7,8 @@
 
 ## Install
 
-```
-npm install --save broccoli-csso
+```bash
+$ npm install --save broccoli-csso
 ```
 
 
@@ -36,4 +36,4 @@ Structure minimization.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
