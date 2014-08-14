@@ -7,12 +7,12 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save broccoli-csso
 ```
 
 
-## Example
+## Usage
 
 ```js
 var csso = require('broccoli-csso');
@@ -28,7 +28,7 @@ tree = csso(tree, options);
 
 ##### restructure
 
-Type: `Boolean`  
+Type: `boolean`  
 Default: `true`
 
 Structure minimization.
@@ -36,4 +36,4 @@ Structure minimization.
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
