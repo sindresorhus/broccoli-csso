@@ -7,8 +7,8 @@
 
 ## Install
 
-```sh
-$ npm install --save broccoli-csso
+```
+$ npm install --save-dev broccoli-csso
 ```
 
 
@@ -22,7 +22,7 @@ tree = csso(tree, options);
 
 ## API
 
-### csso(tree, options)
+### csso(tree, [options])
 
 #### options
 
