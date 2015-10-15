@@ -7,6 +7,8 @@ function CssoFilter(inputTree, options) {
 		return new CssoFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options || {};
 }
