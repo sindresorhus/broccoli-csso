@@ -20,7 +20,7 @@ CssoFilter.prototype.extensions = ['css'];
 CssoFilter.prototype.targetExtension = 'css';
 
 CssoFilter.prototype.processString = function (str) {
-	return csso.justDoIt(str, this.options.restructure);
+	return csso.minify(str, this.options);
 };
 
 module.exports = CssoFilter;

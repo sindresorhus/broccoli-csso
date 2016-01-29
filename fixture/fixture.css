@@ -1,3 +1,5 @@
 :fullscreen a {
 	transition: transform 1s
 }
+.foo { color: #ff0000; }
+.bar { color: rgba(255, 0, 0, 1); }
