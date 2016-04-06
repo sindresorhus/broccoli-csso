@@ -7,13 +7,13 @@
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "sindresorhus.com"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "broccoli build temp && mocha"
+    "test": "xo && broccoli build temp && mocha"
   },
   "files": [
     "index.js"
@@ -35,6 +35,7 @@
     "broccoli": "^0.16.8",
     "broccoli-cli": "^1.0.0",
     "mocha": "*",
-    "rimraf": "^2.2.6"
+    "rimraf": "^2.2.6",
+    "xo": "*"
   }
 }
