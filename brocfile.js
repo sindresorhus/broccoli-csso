@@ -1,2 +1,4 @@
 'use strict';
-module.exports = require('.')('fixture');
+const CSSO = require('.');
+
+module.exports = new CSSO('fixture');
