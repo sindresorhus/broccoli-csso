@@ -1,6 +1,6 @@
 'use strict';
-var Filter = require('broccoli-filter');
-var csso = require('csso');
+const Filter = require('broccoli-filter');
+const csso = require('csso');
 
 function CssoFilter(inputTree, options) {
 	if (!(this instanceof CssoFilter)) {

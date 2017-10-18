@@ -15,14 +15,14 @@ $ npm install --save-dev broccoli-csso
 ## Usage
 
 ```js
-const csso = require('broccoli-csso');
-tree = csso(tree, options);
+const CSSO = require('broccoli-csso');
+tree = new CSSO(tree, options);
 ```
 
 
 ## API
 
-### csso(tree, [options])
+### CSSO(tree, [options])
 
 #### options
 
