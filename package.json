@@ -1,19 +1,19 @@
 {
   "name": "broccoli-csso",
-  "version": "1.2.0",
+  "version": "3.0.0",
   "description": "Minify CSS using CSSO",
   "license": "MIT",
   "repository": "sindresorhus/broccoli-csso",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "broccoli build temp && mocha"
+    "test": "xo && broccoli build temp && ava"
   },
   "files": [
     "index.js"
@@ -32,9 +32,10 @@
     "csso": "*"
   },
   "devDependencies": {
-    "broccoli": "^0.16.8",
+    "ava": "*",
+    "broccoli": "^1.1.3",
     "broccoli-cli": "^1.0.0",
-    "mocha": "*",
-    "rimraf": "^2.2.6"
+    "del": "^3.0.0",
+    "xo": "*"
   }
 }
