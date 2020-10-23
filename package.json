@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "broccoli-filter": "^1.2.2",
-    "csso": "^1.5.4"
+    "csso": "*"
   },
   "devDependencies": {
     "broccoli": "^0.16.8",
