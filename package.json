@@ -4,6 +4,7 @@
   "description": "Minify CSS using CSSO",
   "license": "MIT",
   "repository": "sindresorhus/broccoli-csso",
+  "funding": "https://github.com/sponsors/sindresorhus",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

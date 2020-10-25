@@ -3,10 +3,10 @@ const Filter = require('broccoli-filter');
 const csso = require('csso');
 
 module.exports = class extends Filter {
-	constructor(inputTree, options) {
+	constructor(inputTree, options = {}) {
 		super(inputTree);
 		this.inputTree = inputTree;
-		this.options = options || {};
+		this.options = options;
 	}
 
 	get extensions() {
