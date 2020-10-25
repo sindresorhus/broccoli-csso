@@ -1,6 +1,6 @@
 {
   "name": "broccoli-csso",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Minify CSS using CSSO",
   "license": "MIT",
   "repository": "sindresorhus/broccoli-csso",
