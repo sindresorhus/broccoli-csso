@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-csso [![Build Status](https://travis-ci.com/sindresorhus/broccoli-csso.svg?branch=master)](https://travis-ci.com/github/sindresorhus/broccoli-csso)
+# [broccoli](https://github.com/joliss/broccoli)-csso
 
 > Minify CSS using [CSSO](https://github.com/css/csso)
 
