@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install --save-dev broccoli-csso
+```sh
+npm install --save-dev broccoli-csso
 ```
 
 ## Usage
